@@ -1,0 +1,46 @@
+body{
+	font-size: 1em;
+	background-color: grey;
+	font-family: 'Merriweather', serif;
+    font-family: 'Playfair Display', serif;
+}
+#header-nav{
+	background-color: white;
+}
+
+#brand-name{
+	font-size: 2em;
+}
+#nav-list a{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+#nav-list li{
+	border: 1px solid white;
+}
+
+.indv-tiles{
+	border: 10px solid grey;
+	padding: 30px;
+	background-color: white;
+	color: black;
+	height: 1000px;
+}
+.tiles h3{
+	font-size: 2em;
+}
+#page-title{
+	font-weight: bold;
+}
+
+@media(min-width: 992px){
+	.collapse ul{
+		display: none;
+	}
+}
+
+
+
+
+
